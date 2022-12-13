@@ -20,7 +20,7 @@ function Search() {
     return (
           <Form onSubmit={handleSubmit}>
                 <Form.Group>
-                     <Form.Control onChange={handleChange} type="text" placeholder="Search Sites by name, town, postcode" ></Form.Control>
+                     <Form.Control onChange={handleChange} type="text" placeholder="Search Sites by name, town (Leeds), postcode" ></Form.Control>
                 </Form.Group>
                 <Button type="submit">Search</Button>
            </Form>
